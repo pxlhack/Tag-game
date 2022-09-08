@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane prefHeight="480.0" prefWidth="640.0" style="-fx-background-color: #08260f;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.pxlhack.game.GameController">
+    <Rectangle arcHeight="5.0" arcWidth="5.0" height="420.0" layoutX="30.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="420.0" />
+    <Button fx:id="firstBtn" layoutX="30.0" layoutY="30.0" onAction="#firstBtnOnClick" prefHeight="140" prefWidth="140" />
+    <Button fx:id="secondBtn" layoutX="170.0" layoutY="30.0" onAction="#secondBtnOnClick" prefHeight="140" prefWidth="140" />
+    <Button fx:id="thirdBtn" layoutX="310.0" layoutY="30.0" onAction="#thirdBtnOnClick" prefHeight="140" prefWidth="140" />
+    <Button fx:id="fourthBtn" layoutX="30.0" layoutY="170.0" onAction="#fourthBtnOnClick" prefHeight="140" prefWidth="140" />
+    <Button fx:id="fifthBtn" layoutX="170.0" layoutY="170.0" onAction="#fifthBtnOnClick" prefHeight="140" prefWidth="140" />
+    <Button fx:id="sixthBtn" layoutX="310.0" layoutY="170.0" onAction="#sixthBtnOnClick" prefHeight="140" prefWidth="140" />
+    <Button fx:id="seventhBtn" layoutX="30.0" layoutY="310.0" onAction="#seventhBtnOnClick" prefHeight="140" prefWidth="140" />
+    <Button fx:id="eighthBtn" layoutX="170.0" layoutY="310.0" onAction="#eighthBtnOnClick" prefHeight="140" prefWidth="140" />
+    <Button fx:id="ninthBtn" layoutX="310.0" layoutY="310.0" onAction="#ninthBtnOnclick" prefHeight="140" prefWidth="140" />
+   <Button layoutX="510.0" layoutY="195.0" mnemonicParsing="false" onAction="#startGameBtnOnClick" text="Start game" />
+</AnchorPane>
